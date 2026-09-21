@@ -29,11 +29,10 @@ def calendar_days_left(today, end_date):
 
 
 def school_days_left(today, end_date):
-    current = today
+    current = today + timedelta(days=1)
     count = 0
 
     while current <= end_date:
-
         is_weekday = current.weekday() < 5
 
         is_december_25 = (
