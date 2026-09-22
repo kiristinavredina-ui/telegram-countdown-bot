@@ -2,7 +2,7 @@ name: Daily Telegram Countdown
 
 on:
   schedule:
-    - cron: "0 17 * * *"
+    - cron: "5 14 * * *"
       timezone: "Europe/Moscow"
   workflow_dispatch:
 
