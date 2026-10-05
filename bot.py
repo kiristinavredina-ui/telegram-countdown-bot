@@ -52,9 +52,9 @@ def calculate():
 
     today = today_moscow()
 
-    december_31 = get_next_date(
+    december_29 = get_next_date(
         12,
-        31,
+        29,
         today
     )
 
@@ -66,12 +66,12 @@ def calculate():
 
     days_to_december = calendar_days_left(
         today,
-        december_31
+        january_4
     )
 
     school_days = school_days_left(
         today,
-        december_31
+        december_29
     )
 
     days_to_january = calendar_days_left(
