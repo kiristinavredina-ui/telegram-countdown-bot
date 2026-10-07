@@ -25,7 +25,7 @@ def get_next_date(month, day, today):
 
 
 def calendar_days_left(today, end_date):
-    return (end_date - today).days + 1
+    return (end_date - today).days
 
 
 def school_days_left(today, end_date):
