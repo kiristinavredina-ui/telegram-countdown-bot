@@ -66,7 +66,7 @@ def calculate():
 
     days_to_december = calendar_days_left(
         today,
-        january_29
+        december_29
     )
 
     school_days = school_days_left(
